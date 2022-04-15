@@ -19,6 +19,8 @@ header .container{
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    
 
 }
 header .logo{
@@ -37,3 +39,11 @@ margin-right: 10px;
 header nav a:hover{
     color: #fff;
 }
+
+/*filme principal*/
+.Filme-principal{
+    font-size: 18px;
+background-image: url('https://cafecomnerd.com.br/wp-content/uploads/2022/02/Vikings-Valhalla-Tudo-que-voce-precisa-saber-sobre-serie-da-Netflix-continuacao-da-serie-Vikings.jpg');    
+height: 400PX;
+    
+    }
