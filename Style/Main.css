@@ -43,7 +43,17 @@ header nav a:hover{
 /*filme principal*/
 .Filme-principal{
     font-size: 18px;
-background-image: url('https://cafecomnerd.com.br/wp-content/uploads/2022/02/Vikings-Valhalla-Tudo-que-voce-precisa-saber-sobre-serie-da-Netflix-continuacao-da-serie-Vikings.jpg');    
-height: 400PX;
+background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Img/back.jpg');
     
-    }
+height: 400PX;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.filme-principal .descricao{
+        margin-top: 10px;
+        margin-bottom: 40px;
+}
+    
